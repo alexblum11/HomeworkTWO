@@ -18,6 +18,7 @@ public class Login extends Activity implements View.OnClickListener{
     private RadioButton rb_profile;
     private RadioButton rb_settings;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -31,7 +32,6 @@ public class Login extends Activity implements View.OnClickListener{
         rb_settings = (RadioButton) findViewById(R.id.rb_settings);
 
         button_login.setOnClickListener(this);
-
     }
 
     @Override
